@@ -57,6 +57,17 @@ schema {
 }
 ```
 
+**resolver**: A resolver is a function that is used to fetch the data for a specific field in a GraphQL query. In a GraphQL schema, resolvers are defined as part of a type and are responsible for fetching the data for a specific field. For example, you could define a user resolver that fetches a user's data from a database:
+
+```graphql
+type User {
+  id: Int
+  name: String
+  email: String
+  resolver(userId: Int): User
+}
+```
+
 Here's an example of a complete GraphQL schema that includes all of these keywords:
 
 ```graphql
