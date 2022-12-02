@@ -48,3 +48,5 @@ query {
 In this example, the attacker is sending a request to the server with a null origin. If the server's CORS headers are not properly configured, it could potentially allow the attacker to access resources on the server that they are not authorized to access.
 
 Another example of a poorly configured CORS header in a GraphQL server might involve setting the Access-Control-Allow-Origin header to a specific origin, but not properly validating the origin of requests to the server. This could potentially allow attackers to access resources on the server by spoofing the origin of their requests.
+
+To prevent these types of vulnerabilities, it is important to properly configure the server's CORS headers. This can include setting the Access-Control-Allow-Origin header to a specific origin, and properly validating the origin of requests to the server to ensure that they are coming from a trusted source. It is also important to regularly test and monitor the server's CORS headers to ensure that they are functioning correctly and preventing unauthorized access to resources on the server.
