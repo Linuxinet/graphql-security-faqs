@@ -1,5 +1,5 @@
 # graphql-security-faqs
-contains usefull information i gathered while learning graphql(security)
+contains usefull information i gathered while learning graphql(security), if i want to re-start graphql pentesting i use this as notes
 
 ## Index
 
@@ -7,11 +7,17 @@ contains usefull information i gathered while learning graphql(security)
 ### [Queries](queries.md)
 ### [Mutations](mutations.md)
 ### [Subscriptions](subscriptions.md)
----
-### [Graphql Vulnerabilities](vulnerabilites.md)
+
+## [Graphql Vulnerabilities](vulnerabilites.md)
   ### [Injection attacks](injections.md)
   ### [Denial of service (DoS) attacks](dos.md)
   ### [Access control vulnerabilities](access-control.md)
   ### [Lack of rate limiting](rate-limit.md)
   ### [Poorly configured CORS headers](cors.md)  
   ### [Lack of input validation](input-validation.md)
+
+## TO DO (feel free to contribute)
+
++ add blogs and videos
++ cheat sheets
++ tips
